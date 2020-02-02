@@ -1,0 +1,68 @@
+https://docs.locust.io/en/stable/
+
+python -m pip install --upgrade pip
+
+pip install locustio
+
+ 
+ 
+ pip install pyzmq-16.0.2-cp36-cp36m-win32.whl
+ 
+ 
+ python3 -m pip install D:/Kasi/python/gevent-1.5a2-cp38-cp38-win32.whl
+ 
+ python3 -m pip install pyzmq
+ 
+ python3 -m pip install --upgrade setuptools
+ 
+ python3 -m pip install locustio
+ 
+ >ls
+ >dir
+ 
+ >locust --help
+ >locust
+ 
+ > locust -f  locustfile.py
+ 
+ port change :
+ 
+ 
+ >locust -f firstlocust.py --web-port 8082
+ 
+ give host :
+ 
+ > locust -f locust_http_get.py --web-port 8083 --host="http://newtours.demoaut.com"
+ 
+ reco.richard
+ J@Nfirst1234
+ 
+ to generate log files 
+ 
+ locust -f locust_http_post.py --web-port 8082 --logfile=locust.log
+
+
+
+ DESKTOP-KK0ABHE/INFO/locust.main: Starting web monitor at http://*:8089
+
+ 
+   Host : http://locust.io
+   
+   Hatch rate (users spawned/second) : 10 
+   
+   Number of total users to simulate : 20
+   
+   
+   https://locust.io/
+   
+   
+    20                 POST /login: "HTTPError('404 Client Error: NOT FOUND for url: https://locust.io/login')"
+ 42                 GET /profile: "HTTPError('404 Client Error: NOT FOUND for url: https://locust.io/profile')"
+ 20                 POST /logout: "HTTPError('404 Client Error: NOT FOUND for url: https://locust.io/logout')"
+
+ 
+ 
+ * qamile1@gmail.com  , qamile
+ 
+ 
+ reco.richard J@Nfirst1234
