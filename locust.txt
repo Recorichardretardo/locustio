@@ -66,3 +66,16 @@ pip install locustio
  
  
  reco.richard J@Nfirst1234
+ 
+ 
+ 
+  python3 -m pip install pyzmq
+ 
+ python3 -m pip install pygame
+ 
+ python3 -m pip install --upgrade pip
+ 
+ 
+ pip install -r requirements.txt  --index-url https://pypi.python.org/simple/
+ 
+ python3 -m pip --version
